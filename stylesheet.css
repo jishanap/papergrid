@@ -1,0 +1,32 @@
+#free-ship:hover{
+    background-color: #353333;
+}
+.nav-link:hover{
+    text-decoration: underline;
+    color: white;
+}
+@media(max-width:425px){
+    .founder{
+        width: 100%;
+        padding-top: 30px;    
+    }
+}
+
+.footer-links{
+    height: 50px
+}
+.footer-links a,
+.footer-links span {
+  font-size: 12px;
+  text-decoration: none; 
+}
+.footer-links a:hover,
+.footer-links span:hover {
+  text-decoration: underline;
+  color: white; 
+}
+@media(max-width:768px){
+    .footer-links{
+    height: 100%;
+}
+}
